@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Assinment4
+namespace Common
 {
-    enum Genre { Fiction, NonFiction, Science }
-    internal class Book
+    public enum Genre { Fiction, NonFiction, Science }
+    public class Book
     {
         private string password = "secret";
         internal int copiesInStock = 5;

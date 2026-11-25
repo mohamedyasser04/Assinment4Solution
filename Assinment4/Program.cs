@@ -1,4 +1,5 @@
-﻿using System.Drawing;
+﻿using Common;
+using System.Drawing;
 
 namespace Assinment4
 {
@@ -11,6 +12,8 @@ namespace Assinment4
             /*
              Book book = new Book();
              Console.WriteLine(book.password); 
+            //  Compile Error
+            // private بسبب انها  
             */
             #endregion
 
@@ -19,6 +22,8 @@ namespace Assinment4
             /*
             Book book = new Book();
             Console.WriteLine(book.copiesInStock);
+            // Compile Error
+            //  هما اه نفس السوليوشن بس مش نفس الاسيمبلي  internal بسبب انها  
             */
             #endregion
 
